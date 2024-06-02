@@ -170,50 +170,47 @@ Ceci est un script Bash simple pour gérer des tâches. Les tâches sont stocké
 
 ## Utilisation
 
-```bash
+
 ./task_manager.sh {create|update|delete|show|list|search|help}
 Commandes
 create
 Créer une nouvelle tâche.
 
-bash
-Copier le code
+
 ./task_manager.sh create
 update
 Mettre à jour une tâche existante par son ID.
 
-bash
-Copier le code
+
 ./task_manager.sh update
 delete
 Supprimer une tâche par son ID.
 
-bash
-Copier le code
+
 ./task_manager.sh delete
 show
 Afficher les détails d'une tâche par son ID.
 
-bash
-Copier le code
+
+
 ./task_manager.sh show
 list
 Lister les tâches pour une date spécifique (YYYY-MM-DD).
 
-bash
-Copier le code
+
+
 ./task_manager.sh list
 search
 Rechercher des tâches par titre.
 
-bash
-Copier le code
+
+
 ./task_manager.sh search
 help
 Afficher le menu d'aide.
 
-bash
-Copier le code
+
+
 ./task_manager.sh help
 Fonctionnalités
 Les tâches sont stockées dans un fichier CSV (tasks.csv).
@@ -267,19 +264,18 @@ Affiche le menu d'aide.
 Exemple
 Création d'une nouvelle tâche :
 
-bash
 
 ./task_manager.sh create
 # Suivez les instructions pour entrer les détails de la tâche
 Mise à jour d'une tâche :
 
-bash
+
 
 ./task_manager.sh update
 # Suivez les instructions pour mettre à jour les détails de la tâche
 Suppression d'une tâche :
 
-bash
+
 
 ./task_manager.sh delete
 # Suivez les instructions pour entrer l'ID de la tâche à supprimer
@@ -291,19 +287,18 @@ bash
 # Suivez les instructions pour entrer la date
 Recherche de tâches par titre :
 
-bash
+
 
 ./task_manager.sh search
 # Suivez les instructions pour entrer le titre à rechercher
 Affichage des détails d'une tâche :
 
-bash
 
 ./task_manager.sh show
 # Suivez les instructions pour entrer l'ID de la tâche
 Affichage de l'aide :
 
-bash
+
 
 ./task_manager.sh help
 Lorsqu'il est exécuté sans arguments, le script affiche les tâches complétées et non complétées pour la journée en cours.
